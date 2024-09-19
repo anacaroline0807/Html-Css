@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em HTML5</title>
+    <style>
+        
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esses site com vários dispositivos diferentes ou simplismente aumente ou diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1000px)"srcset="imagens/foto-M.png" type="image/png">
+        <img src="imagens/FOTO-G.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzir Audio</h1>
+    <p>Vamos aprender reproduzir em HTML5</p> <!--Tipos de audios-mp3-ogg-wav-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/you're There- The Soundlings.mp3" type="audio/mp3">
+        <source src="midia/you're There- The Soundlings.ogg" type="aidio/ogg">
+        <source src="midia/you're There- The Soundlings.wav" type="audio/wav">
+</body>
+</html>
